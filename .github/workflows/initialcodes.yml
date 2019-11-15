@@ -1,0 +1,35 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
+
+
+$To calculate the r^2 and D' statistic for all combinations of SNPs$
+\item[DPrime] \hfill \\
+$More on R^2 versus D' statistics for measures of LD: https://www.researchgate.net/post/When_is_correct_to_use_r2_and_when_D_for_selecting_SNPs_in_LD$
+
+$To detect sets of SNPs that associate with phenotype.$
+  \item[Dandelion] \hfill \\
+$should brackets be replaced with clinical outcomes/phenotype of interest?$
+
+$To calculate HWE (i.e. maximum likelihood estimate of the allele frequencies, observed and expected number of heterozygotes and homozygotes$
+\subsubsection{Goodness of Fit Test}
+\label{goodness-of-fit}
+\begin{enumerate}
+$what does subscription and label refer to? Is the last line of code needed?$
+
+$What should be done about no-call SNPs?
+Is there a standard no-call threshold for the iPLEX assay? i.e. is our data bias?$
